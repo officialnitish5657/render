@@ -50,6 +50,16 @@ export default function Navigation() {
               >
                 Blog
               </Link>
+              <Link 
+                href="/contact" 
+                className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
+                  isActive('/contact') 
+                    ? 'text-blue-600 dark:text-blue-400' 
+                    : 'text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
+                }`}
+              >
+                Contact
+              </Link>
             </div>
           </div>
           
@@ -99,6 +109,17 @@ export default function Navigation() {
               }`}
             >
               Blog
+            </Link>
+            <Link 
+              href="/contact" 
+              onClick={closeMobileMenu}
+              className={`block px-3 py-2 text-base font-medium transition-colors duration-200 rounded-md ${
+                isActive('/contact') 
+                  ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20' 
+                  : 'text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-50 dark:hover:bg-gray-800'
+              }`}
+            >
+              Contact
             </Link>
           </div>
         </div>
