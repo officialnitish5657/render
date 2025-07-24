@@ -1,12 +1,24 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { User, Calendar, Clock, ChevronRight } from "lucide-react";
+import { Link } from "wouter";
 import SEOHead from "@/components/seo-head";
 
 export default function Blog() {
   const relatedArticles = [
     {
       id: 1,
+      title: "10 AI Tools That Will Make Your Life 10x Faster and Easier",
+      excerpt: "Discover the top AI tools that can revolutionize your productivity and workflow. From ChatGPT to automation platforms.",
+      author: "ModernBlog Team",
+      date: "March 15, 2024",
+      category: "AI Technology",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&h=1380",
+      categoryColor: "bg-purple-100 text-purple-800",
+      url: "/ai-tools"
+    },
+    {
+      id: 2,
       title: "Understanding Data Visualization in Modern Web Apps",
       excerpt: "Learn how to effectively present complex data through interactive visualizations that engage users and drive insights.",
       author: "Alex Chen",
@@ -16,7 +28,7 @@ export default function Blog() {
       categoryColor: "bg-green-100 text-green-800"
     },
     {
-      id: 2,
+      id: 3,
       title: "Design Systems That Scale: Building for the Future",
       excerpt: "Explore best practices for creating design systems that can grow with your product and maintain consistency across teams.",
       author: "Maya Patel",
@@ -24,16 +36,6 @@ export default function Blog() {
       category: "Design",
       image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&h=1380",
       categoryColor: "bg-purple-100 text-purple-800"
-    },
-    {
-      id: 3,
-      title: "Web Security Best Practices for 2024",
-      excerpt: "Stay ahead of security threats with the latest best practices and tools for protecting web applications and user data.",
-      author: "David Rodriguez",
-      date: "March 5, 2024",
-      category: "Security",
-      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&h=1380",
-      categoryColor: "bg-red-100 text-red-800"
     }
   ];
 
@@ -181,34 +183,69 @@ export default function Blog() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {relatedArticles.map((article) => (
-              <Card key={article.id} className="bg-white hover:shadow-lg transition-shadow duration-300 overflow-hidden group cursor-pointer">
-                <div className="aspect-w-16 aspect-h-9">
-                  <img 
-                    src={article.image} 
-                    alt={article.title} 
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <CardContent className="p-6">
-                  <Badge className={`mb-3 ${article.categoryColor}`}>
-                    {article.category}
-                  </Badge>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                    {article.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm mb-4">
-                    {article.excerpt}
-                  </p>
-                  <div className="flex items-center justify-between text-xs text-gray-500">
-                    <div className="flex items-center space-x-4">
-                      <span>{article.author}</span>
-                      <span>•</span>
-                      <span>{article.date}</span>
+              <div key={article.id}>
+                {article.url ? (
+                  <Link href={article.url}>
+                    <Card className="bg-white hover:shadow-lg transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                      <div className="aspect-w-16 aspect-h-9">
+                        <img 
+                          src={article.image} 
+                          alt={article.title} 
+                          className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                      <CardContent className="p-6">
+                        <Badge className={`mb-3 ${article.categoryColor}`}>
+                          {article.category}
+                        </Badge>
+                        <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                          {article.title}
+                        </h3>
+                        <p className="text-gray-600 text-sm mb-4">
+                          {article.excerpt}
+                        </p>
+                        <div className="flex items-center justify-between text-xs text-gray-500">
+                          <div className="flex items-center space-x-4">
+                            <span>{article.author}</span>
+                            <span>•</span>
+                            <span>{article.date}</span>
+                          </div>
+                          <ChevronRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                ) : (
+                  <Card className="bg-white hover:shadow-lg transition-shadow duration-300 overflow-hidden group cursor-pointer">
+                    <div className="aspect-w-16 aspect-h-9">
+                      <img 
+                        src={article.image} 
+                        alt={article.title} 
+                        className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
                     </div>
-                    <ChevronRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </div>
-                </CardContent>
-              </Card>
+                    <CardContent className="p-6">
+                      <Badge className={`mb-3 ${article.categoryColor}`}>
+                        {article.category}
+                      </Badge>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+                        {article.title}
+                      </h3>
+                      <p className="text-gray-600 text-sm mb-4">
+                        {article.excerpt}
+                      </p>
+                      <div className="flex items-center justify-between text-xs text-gray-500">
+                        <div className="flex items-center space-x-4">
+                          <span>{article.author}</span>
+                          <span>•</span>
+                          <span>{article.date}</span>
+                        </div>
+                        <ChevronRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                )}
+              </div>
             ))}
           </div>
         </div>
