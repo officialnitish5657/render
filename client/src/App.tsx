@@ -9,7 +9,6 @@ import Home from "@/pages/home";
 import Blog from "@/pages/blog";
 import BlogDetail from "@/pages/blog-detail";
 import Contact from "@/pages/contact";
-import AIToolsBlog from "@/pages/ai-tools-blog";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -18,7 +17,6 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/blog" component={Blog} />
       <Route path="/blog/:id" component={BlogDetail} />
-      <Route path="/ai-tools" component={AIToolsBlog} />
       <Route path="/contact" component={Contact} />
       {/* Fallback to 404 */}
       <Route component={NotFound} />
