@@ -1,6 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { User, Calendar, Clock, ChevronRight } from "lucide-react";
+import SEOHead from "@/components/seo-head";
 
 export default function Blog() {
   const relatedArticles = [
@@ -38,6 +39,19 @@ export default function Blog() {
 
   return (
     <div>
+      <SEOHead
+        title="The Future of Web Development: Trends and Technologies to Watch | ModernBlog"
+        description="Explore the latest trends in web development for 2024, from AI-powered development tools to modern frameworks and mobile-first approaches. Learn what developers need to know about the future of web technology."
+        keywords="web development, AI development tools, React frameworks, mobile-first design, progressive web apps, WebAssembly, JavaScript trends, modern web technologies, software development"
+        image="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=630"
+        url="https://modernblog.replit.app/blog"
+        type="article"
+        author="Sarah Johnson"
+        publishedTime="2024-03-15T10:00:00.000Z"
+        modifiedTime="2024-03-15T10:00:00.000Z"
+        section="Technology"
+        tags={["web development", "AI", "frameworks", "mobile-first", "technology trends"]}
+      />
       <article className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         {/* Blog Header */}
         <header className="text-center mb-12">

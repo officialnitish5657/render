@@ -1,10 +1,19 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, BookOpen, Lightbulb, Users } from "lucide-react";
+import SEOHead from "@/components/seo-head";
 
 export default function Home() {
   return (
     <div>
+      <SEOHead
+        title="ModernBlog - Quality Articles, Fresh Ideas, and Vibrant Community"
+        description="Discover insightful articles, creative stories, and thought-provoking content that inspires and informs. Join our community of readers and writers exploring technology, design, development, and business insights."
+        keywords="blog, articles, technology, web development, design, programming, business insights, modern web, community, quality content, tech blog, development blog"
+        image="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=630"
+        url="https://modernblog.replit.app/"
+        type="website"
+      />
       {/* Hero Section */}
       <section className="relative bg-gray-900 overflow-hidden">
         <div className="absolute inset-0">

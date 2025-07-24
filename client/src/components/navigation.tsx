@@ -8,7 +8,6 @@ export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
-    console.log('Mobile menu toggle clicked', !isMobileMenuOpen);
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
@@ -17,8 +16,6 @@ export default function Navigation() {
   };
 
   const isActive = (path: string) => location === path;
-
-  console.log('Mobile menu state:', isMobileMenuOpen);
 
   return (
     <nav className="bg-white dark:bg-gray-900 shadow-sm border-b border-gray-100 dark:border-gray-700 sticky top-0 z-50">

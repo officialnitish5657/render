@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://modernblog.replit.app/sitemap.xml
+
+# Allow crawling of all content
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay for other bots (optional)
+User-agent: *
+Crawl-delay: 1
