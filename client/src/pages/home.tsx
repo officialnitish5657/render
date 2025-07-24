@@ -101,7 +101,7 @@ export default function Home() {
           </div>
           
           <div className="max-w-4xl mx-auto">
-            <Link href="/blog/ai-tools">
+            <Link href="/blog/ai-tools-10x-faster">
               <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 group cursor-pointer">
                 <div className="md:flex">
                   <div className="md:w-1/2">
