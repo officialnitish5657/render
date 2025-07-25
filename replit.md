@@ -17,6 +17,7 @@ This is a full-stack blog application built with a modern React frontend and Exp
 ✓ **NEW**: Added comprehensive AI tools blog: "10 AI Tools That Will Make Your Life 10x Faster and Easier"
 ✓ **NEW**: Added video editing software blog: "Top 10 Video Editing Software: Free and Paid Options"
 ✓ **NEW**: Added Chrome extensions blog: "Top 10 Chrome Extensions for Productivity: Supercharge Your Browser"
+✓ **NEW**: Added programming languages blog: "Top 5 Programming Languages to Learn in 2025: Future-Proof Your Career"
 ✓ **NEW**: Each blog includes practical tools with external website links for direct access
 ✓ **NEW**: Implemented dynamic routing (/blog/:id) for individual blog posts
 ✓ **NEW**: Blog listing page shows all available blogs as interactive cards
