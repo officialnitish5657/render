@@ -149,7 +149,7 @@ app.use(express.json());
 // import cors from "cors";
 
 app.use(cors({
-  origin: "https://stablecodex.web.app", // only allow this origin
+  origin: "https://modernblogx.web.app", // only allow this origin
   methods: ["GET", "POST", "PUT", "DELETE"], // customize if needed
   credentials: true, // optional, only if you're using cookies or auth
 }));
