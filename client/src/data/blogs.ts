@@ -742,344 +742,670 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Discover the most in-demand programming languages for 2025. From AI and machine learning to web development and system programming, these languages offer the best career opportunities and growth potential.",
     content: `
       <div class="mb-8">
-        <img 
-          src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&h=1380" 
-          alt="Multiple computer screens showing different programming languages code" 
-          class="w-full h-80 object-cover rounded-xl shadow-lg mb-6"
-        />
+              <img 
+                src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&h=1380" 
+                alt="Multiple computer screens showing different programming languages code" 
+                class="w-full h-80 object-cover rounded-xl shadow-lg mb-6"
+              />
+            </div>
+
+            <p class="text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
+              The programming landscape is constantly evolving, and 2025 promises to be a pivotal year for software development. Whether you're starting your coding journey or looking to add new skills to your toolkit, choosing the right programming language can dramatically impact your career trajectory and earning potential.
+            </p>
+
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-12">
+              Based on industry trends, job market analysis, and technological advancement, we've identified the five programming languages that offer the best combination of career opportunities, salary potential, and future growth. Each language comes with learning resources and official documentation links to get you started.
+            </p>
+
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-16 mb-8">🏆 The Top 5 Programming Languages for 2025</h2>
+
+            <div class="space-y-12">
+              <div class="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 p-8 rounded-2xl border border-blue-200 dark:border-blue-700 hover:shadow-lg transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                  <div class="p-4 bg-blue-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">1</div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Python</h3>
+                    <p class="text-blue-700 dark:text-blue-300 font-medium text-lg">The Universal Language</p>
+                  </div>
+                </div>
+
+                <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
+                  Python continues to dominate as the most versatile and beginner-friendly programming language. Its clean syntax and extensive ecosystem make it the go-to choice for AI, machine learning, data science, web development, and automation.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Data Scientist ($120k-$180k)</li>
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>AI/ML Engineer ($130k-$200k)</li>
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Backend Developer ($90k-$150k)</li>
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>DevOps Engineer ($110k-$170k)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn Python in 2025:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Leading AI/ML frameworks (TensorFlow, PyTorch)</li>
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Fastest-growing job market</li>
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Excellent for beginners</li>
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Strong community support</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="bg-blue-100 dark:bg-blue-900/30 p-4 rounded-lg mb-6">
+                  <h4 class="font-semibold text-blue-800 dark:text-blue-300 mb-2">Popular Frameworks & Libraries:</h4>
+                  <p class="text-blue-700 dark:text-blue-300">Django, Flask, FastAPI, TensorFlow, PyTorch, Pandas, NumPy, Scikit-learn</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <a href="https://www.python.org/about/gettingstarted/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-200 text-sm font-medium">
+                    Official Python Tutorial →
+                  </a>
+                  <a href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 text-sm font-medium">
+                    Python Documentation →
+                  </a>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 dark:from-yellow-900/20 dark:to-yellow-800/20 p-8 rounded-2xl border border-yellow-200 dark:border-yellow-700 hover:shadow-lg transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                  <div class="p-4 bg-yellow-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">2</div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">JavaScript/TypeScript</h3>
+                    <p class="text-yellow-700 dark:text-yellow-300 font-medium text-lg">The Web Development Powerhouse</p>
+                  </div>
+                </div>
+
+                <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
+                  JavaScript remains the backbone of web development, while TypeScript adds enterprise-level type safety. Together, they power everything from frontend interfaces to backend services, mobile apps, and even desktop applications.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Full-Stack Developer ($95k-$160k)</li>
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Frontend Developer ($80k-$140k)</li>
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Node.js Developer ($90k-$150k)</li>
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>React/Vue Specialist ($85k-$145k)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn JS/TS in 2025:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Universal language (web, mobile, desktop)</li>
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Huge job market demand</li>
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>TypeScript adoption growing rapidly</li>
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Rich ecosystem and frameworks</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="bg-yellow-100 dark:bg-yellow-900/30 p-4 rounded-lg mb-6">
+                  <h4 class="font-semibold text-yellow-800 dark:text-yellow-300 mb-2">Popular Frameworks & Libraries:</h4>
+                  <p class="text-yellow-700 dark:text-yellow-300">React, Vue.js, Angular, Node.js, Next.js, Express.js, Svelte, React Native</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition-colors duration-200 text-sm font-medium">
+                    JavaScript Guide →
+                  </a>
+                  <a href="https://www.typescriptlang.org/docs/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors duration-200 text-sm font-medium">
+                    TypeScript Documentation →
+                  </a>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900/20 dark:to-green-800/20 p-8 rounded-2xl border border-green-200 dark:border-green-700 hover:shadow-lg transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                  <div class="p-4 bg-green-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">3</div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Rust</h3>
+                    <p class="text-green-700 dark:text-green-300 font-medium text-lg">The Future of System Programming</p>
+                  </div>
+                </div>
+
+                <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
+                  Rust is rapidly becoming the preferred choice for system-level programming, offering memory safety without garbage collection. Major tech companies are adopting Rust for performance-critical applications, making it one of the most promising languages for 2025.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Systems Engineer ($120k-$190k)</li>
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Blockchain Developer ($110k-$180k)</li>
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Performance Engineer ($125k-$200k)</li>
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>WebAssembly Developer ($115k-$175k)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn Rust in 2025:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Fastest-growing systems language</li>
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Memory safety without performance cost</li>
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>High developer satisfaction</li>
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Growing industry adoption</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="bg-green-100 dark:bg-green-900/30 p-4 rounded-lg mb-6">
+                  <h4 class="font-semibold text-green-800 dark:text-green-300 mb-2">Popular Use Cases & Tools:</h4>
+                  <p class="text-green-700 dark:text-green-300">Operating systems, web browsers, game engines, blockchain, CLI tools, WebAssembly, embedded systems</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <a href="https://doc.rust-lang.org/book/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors duration-200 text-sm font-medium">
+                    The Rust Book →
+                  </a>
+                  <a href="https://www.rust-lang.org/learn" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-200 text-sm font-medium">
+                    Learn Rust →
+                  </a>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 p-8 rounded-2xl border border-purple-200 dark:border-purple-700 hover:shadow-lg transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                  <div class="p-4 bg-purple-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">4</div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Go (Golang)</h3>
+                    <p class="text-purple-700 dark:text-purple-300 font-medium text-lg">The Cloud-Native Champion</p>
+                  </div>
+                </div>
+
+                <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
+                  Go has become the language of choice for cloud infrastructure, microservices, and distributed systems. Created by Google, it combines the performance of compiled languages with the simplicity of scripting languages, making it perfect for modern cloud-native applications.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Cloud Engineer ($105k-$170k)</li>
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>DevOps Engineer ($100k-$165k)</li>
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Backend Developer ($95k-$155k)</li>
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Microservices Architect ($130k-$200k)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn Go in 2025:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Perfect for cloud and containers</li>
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Excellent concurrency support</li>
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Fast compilation and deployment</li>
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Simple and readable syntax</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="bg-purple-100 dark:bg-purple-900/30 p-4 rounded-lg mb-6">
+                  <h4 class="font-semibold text-purple-800 dark:text-purple-300 mb-2">Popular Tools & Frameworks:</h4>
+                  <p class="text-purple-700 dark:text-purple-300">Docker, Kubernetes, Gin, Echo, Fiber, gRPC, Cobra CLI, Prometheus</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <a href="https://go.dev/tour/welcome/1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors duration-200 text-sm font-medium">
+                    Go Tour →
+                  </a>
+                  <a href="https://go.dev/doc/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors duration-200 text-sm font-medium">
+                    Go Documentation →
+                  </a>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-red-50 to-red-100 dark:from-red-900/20 dark:to-red-800/20 p-8 rounded-2xl border border-red-200 dark:border-red-700 hover:shadow-lg transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                  <div class="p-4 bg-red-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">5</div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Java</h3>
+                    <p class="text-red-700 dark:text-red-300 font-medium text-lg">The Enterprise Backbone</p>
+                  </div>
+                </div>
+
+                <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
+                  Java continues to be a cornerstone of enterprise development, Android applications, and large-scale systems. With continuous evolution and modern features, Java remains one of the most stable and well-paying career choices in programming.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Enterprise Developer ($85k-$145k)</li>
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Android Developer ($80k-$140k)</li>
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Java Architect ($120k-$185k)</li>
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Spring Framework Developer ($90k-$150k)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn Java in 2025:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Massive enterprise market</li>
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Android development platform</li>
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Strong job security and stability</li>
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Excellent learning foundation</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="bg-red-100 dark:bg-red-900/30 p-4 rounded-lg mb-6">
+                  <h4 class="font-semibold text-red-800 dark:text-red-300 mb-2">Popular Frameworks & Tools:</h4>
+                  <p class="text-red-700 dark:text-red-300">Spring Boot, Spring Framework, Hibernate, Maven, Gradle, Android SDK, Apache Kafka</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <a href="https://docs.oracle.com/javase/tutorial/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors duration-200 text-sm font-medium">
+                    Java Tutorial →
+                  </a>
+                  <a href="https://docs.oracle.com/en/java/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors duration-200 text-sm font-medium">
+                    Java Documentation →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-16 mb-8">📊 2025 Programming Language Market Insights</h2>
+
+            <div class="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl mb-12">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                  <div class="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">78%</div>
+                  <p class="text-gray-700 dark:text-gray-300">of AI/ML jobs require Python</p>
+                </div>
+                <div class="text-center">
+                  <div class="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">65%</div>
+                  <p class="text-gray-700 dark:text-gray-300">web development jobs use JavaScript</p>
+                </div>
+                <div class="text-center">
+                  <div class="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">42%</div>
+                  <p class="text-gray-700 dark:text-gray-300">salary increase for Rust developers</p>
+                </div>
+              </div>
+            </div>
+
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-16 mb-8">🎯 How to Choose Your First Language</h2>
+
+            <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-400 p-8 rounded-r-2xl mb-12">
+              <h3 class="text-xl font-semibold text-blue-800 dark:text-blue-300 mb-4">
+                🎨 For Complete Beginners:
+              </h3>
+              <p class="text-blue-700 dark:text-blue-300 mb-4">
+                Start with <strong>Python</strong> - its simple syntax and versatile applications make it perfect for learning programming fundamentals while building real projects.
+              </p>
+
+              <h3 class="text-xl font-semibold text-blue-800 dark:text-blue-300 mb-4 mt-6">
+                💼 For Career Switchers:
+              </h3>
+              <p class="text-blue-700 dark:text-blue-300 mb-4">
+                Choose <strong>JavaScript/TypeScript</strong> - the highest job demand and quickest path to employment in web development.
+              </p>
+
+              <h3 class="text-xl font-semibold text-blue-800 dark:text-blue-300 mb-4 mt-6">
+                🚀 For High-Performance Applications:
+              </h3>
+              <p class="text-blue-700 dark:text-blue-300">
+                Learn <strong>Rust</strong> or <strong>Go</strong> - both offer excellent performance with modern development experience and growing job markets.
+              </p>
+            </div>
+
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-16 mb-8">Start Your Programming Journey Today</h2>
+
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 text-lg">
+              The programming world in 2025 offers incredible opportunities for those willing to learn and adapt. Each of these languages represents a different path to a successful tech career, with strong job markets and competitive salaries.
+            </p>
+
+            <div class="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-8 rounded-2xl border border-purple-200 dark:border-purple-700 mt-12">
+              <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Ready to Code the Future?</h3>
+
       </div>
-
-      <p class="text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
-        The programming landscape is constantly evolving, and 2025 promises to be a pivotal year for software development. Whether you're starting your coding journey or looking to add new skills to your toolkit, choosing the right programming language can dramatically impact your career trajectory and earning potential.
-      </p>
-
-      <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-12">
-        Based on industry trends, job market analysis, and technological advancement, we've identified the five programming languages that offer the best combination of career opportunities, salary potential, and future growth. Each language comes with learning resources and official documentation links to get you started.
-      </p>
-
-      <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-16 mb-8">🏆 The Top 5 Programming Languages for 2025</h2>
-
-      <div class="space-y-12">
-        <div class="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 p-8 rounded-2xl border border-blue-200 dark:border-blue-700 hover:shadow-lg transition-shadow duration-300">
-          <div class="flex items-center mb-6">
-            <div class="p-4 bg-blue-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">1</div>
-            <div>
-              <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Python</h3>
-              <p class="text-blue-700 dark:text-blue-300 font-medium text-lg">The Universal Language</p>
-            </div>
-          </div>
-          
-          <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
-            Python continues to dominate as the most versatile and beginner-friendly programming language. Its clean syntax and extensive ecosystem make it the go-to choice for AI, machine learning, data science, web development, and automation.
-          </p>
-          
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <div>
-              <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
-              <ul class="text-gray-700 dark:text-gray-300 space-y-2">
-                <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Data Scientist ($120k-$180k)</li>
-                <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>AI/ML Engineer ($130k-$200k)</li>
-                <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Backend Developer ($90k-$150k)</li>
-                <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>DevOps Engineer ($110k-$170k)</li>
-              </ul>
-            </div>
-            <div>
-              <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn Python in 2025:</h4>
-              <ul class="text-gray-700 dark:text-gray-300 space-y-2">
-                <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Leading AI/ML frameworks (TensorFlow, PyTorch)</li>
-                <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Fastest-growing job market</li>
-                <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Excellent for beginners</li>
-                <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Strong community support</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="bg-blue-100 dark:bg-blue-900/30 p-4 rounded-lg mb-6">
-            <h4 class="font-semibold text-blue-800 dark:text-blue-300 mb-2">Popular Frameworks & Libraries:</h4>
-            <p class="text-blue-700 dark:text-blue-300">Django, Flask, FastAPI, TensorFlow, PyTorch, Pandas, NumPy, Scikit-learn</p>
-          </div>
-
-          <div class="flex flex-wrap gap-3">
-            <a href="https://www.python.org/about/gettingstarted/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-200 text-sm font-medium">
-              Official Python Tutorial →
-            </a>
-            <a href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 text-sm font-medium">
-              Python Documentation →
-            </a>
-          </div>
-        </div>
-
-        <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 dark:from-yellow-900/20 dark:to-yellow-800/20 p-8 rounded-2xl border border-yellow-200 dark:border-yellow-700 hover:shadow-lg transition-shadow duration-300">
-          <div class="flex items-center mb-6">
-            <div class="p-4 bg-yellow-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">2</div>
-            <div>
-              <h3 class="text-2xl font-bold text-gray-900 dark:text-white">JavaScript/TypeScript</h3>
-              <p class="text-yellow-700 dark:text-yellow-300 font-medium text-lg">The Web Development Powerhouse</p>
-            </div>
-          </div>
-          
-          <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
-            JavaScript remains the backbone of web development, while TypeScript adds enterprise-level type safety. Together, they power everything from frontend interfaces to backend services, mobile apps, and even desktop applications.
-          </p>
-          
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <div>
-              <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
-              <ul class="text-gray-700 dark:text-gray-300 space-y-2">
-                <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Full-Stack Developer ($95k-$160k)</li>
-                <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Frontend Developer ($80k-$140k)</li>
-                <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Node.js Developer ($90k-$150k)</li>
-                <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>React/Vue Specialist ($85k-$145k)</li>
-              </ul>
-            </div>
-            <div>
-              <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn JS/TS in 2025:</h4>
-              <ul class="text-gray-700 dark:text-gray-300 space-y-2">
-                <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Universal language (web, mobile, desktop)</li>
-                <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Huge job market demand</li>
-                <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>TypeScript adoption growing rapidly</li>
-                <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Rich ecosystem and frameworks</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="bg-yellow-100 dark:bg-yellow-900/30 p-4 rounded-lg mb-6">
-            <h4 class="font-semibold text-yellow-800 dark:text-yellow-300 mb-2">Popular Frameworks & Libraries:</h4>
-            <p class="text-yellow-700 dark:text-yellow-300">React, Vue.js, Angular, Node.js, Next.js, Express.js, Svelte, React Native</p>
-          </div>
-
-          <div class="flex flex-wrap gap-3">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition-colors duration-200 text-sm font-medium">
-              JavaScript Guide →
-            </a>
-            <a href="https://www.typescriptlang.org/docs/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors duration-200 text-sm font-medium">
-              TypeScript Documentation →
-            </a>
-          </div>
-        </div>
-
-        <div class="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900/20 dark:to-green-800/20 p-8 rounded-2xl border border-green-200 dark:border-green-700 hover:shadow-lg transition-shadow duration-300">
-          <div class="flex items-center mb-6">
-            <div class="p-4 bg-green-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">3</div>
-            <div>
-              <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Rust</h3>
-              <p class="text-green-700 dark:text-green-300 font-medium text-lg">The Future of System Programming</p>
-            </div>
-          </div>
-          
-          <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
-            Rust is rapidly becoming the preferred choice for system-level programming, offering memory safety without garbage collection. Major tech companies are adopting Rust for performance-critical applications, making it one of the most promising languages for 2025.
-          </p>
-          
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <div>
-              <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
-              <ul class="text-gray-700 dark:text-gray-300 space-y-2">
-                <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Systems Engineer ($120k-$190k)</li>
-                <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Blockchain Developer ($110k-$180k)</li>
-                <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Performance Engineer ($125k-$200k)</li>
-                <li class="flex items-start"><span class="text-green-500 mr-2">•</span>WebAssembly Developer ($115k-$175k)</li>
-              </ul>
-            </div>
-            <div>
-              <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn Rust in 2025:</h4>
-              <ul class="text-gray-700 dark:text-gray-300 space-y-2">
-                <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Fastest-growing systems language</li>
-                <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Memory safety without performance cost</li>
-                <li class="flex items-start"><span class="text-green-500 mr-2">•</span>High developer satisfaction</li>
-                <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Growing industry adoption</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="bg-green-100 dark:bg-green-900/30 p-4 rounded-lg mb-6">
-            <h4 class="font-semibold text-green-800 dark:text-green-300 mb-2">Popular Use Cases & Tools:</h4>
-            <p class="text-green-700 dark:text-green-300">Operating systems, web browsers, game engines, blockchain, CLI tools, WebAssembly, embedded systems</p>
-          </div>
-
-          <div class="flex flex-wrap gap-3">
-            <a href="https://doc.rust-lang.org/book/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors duration-200 text-sm font-medium">
-              The Rust Book →
-            </a>
-            <a href="https://www.rust-lang.org/learn" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-200 text-sm font-medium">
-              Learn Rust →
-            </a>
-          </div>
-        </div>
-
-        <div class="bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 p-8 rounded-2xl border border-purple-200 dark:border-purple-700 hover:shadow-lg transition-shadow duration-300">
-          <div class="flex items-center mb-6">
-            <div class="p-4 bg-purple-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">4</div>
-            <div>
-              <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Go (Golang)</h3>
-              <p class="text-purple-700 dark:text-purple-300 font-medium text-lg">The Cloud-Native Champion</p>
-            </div>
-          </div>
-          
-          <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
-            Go has become the language of choice for cloud infrastructure, microservices, and distributed systems. Created by Google, it combines the performance of compiled languages with the simplicity of scripting languages, making it perfect for modern cloud-native applications.
-          </p>
-          
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <div>
-              <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
-              <ul class="text-gray-700 dark:text-gray-300 space-y-2">
-                <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Cloud Engineer ($105k-$170k)</li>
-                <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>DevOps Engineer ($100k-$165k)</li>
-                <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Backend Developer ($95k-$155k)</li>
-                <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Microservices Architect ($130k-$200k)</li>
-              </ul>
-            </div>
-            <div>
-              <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn Go in 2025:</h4>
-              <ul class="text-gray-700 dark:text-gray-300 space-y-2">
-                <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Perfect for cloud and containers</li>
-                <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Excellent concurrency support</li>
-                <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Fast compilation and deployment</li>
-                <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Simple and readable syntax</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="bg-purple-100 dark:bg-purple-900/30 p-4 rounded-lg mb-6">
-            <h4 class="font-semibold text-purple-800 dark:text-purple-300 mb-2">Popular Tools & Frameworks:</h4>
-            <p class="text-purple-700 dark:text-purple-300">Docker, Kubernetes, Gin, Echo, Fiber, gRPC, Cobra CLI, Prometheus</p>
-          </div>
-
-          <div class="flex flex-wrap gap-3">
-            <a href="https://go.dev/tour/welcome/1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors duration-200 text-sm font-medium">
-              Go Tour →
-            </a>
-            <a href="https://go.dev/doc/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors duration-200 text-sm font-medium">
-              Go Documentation →
-            </a>
-          </div>
-        </div>
-
-        <div class="bg-gradient-to-br from-red-50 to-red-100 dark:from-red-900/20 dark:to-red-800/20 p-8 rounded-2xl border border-red-200 dark:border-red-700 hover:shadow-lg transition-shadow duration-300">
-          <div class="flex items-center mb-6">
-            <div class="p-4 bg-red-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">5</div>
-            <div>
-              <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Java</h3>
-              <p class="text-red-700 dark:text-red-300 font-medium text-lg">The Enterprise Backbone</p>
-            </div>
-          </div>
-          
-          <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
-            Java continues to be a cornerstone of enterprise development, Android applications, and large-scale systems. With continuous evolution and modern features, Java remains one of the most stable and well-paying career choices in programming.
-          </p>
-          
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <div>
-              <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
-              <ul class="text-gray-700 dark:text-gray-300 space-y-2">
-                <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Enterprise Developer ($85k-$145k)</li>
-                <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Android Developer ($80k-$140k)</li>
-                <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Java Architect ($120k-$185k)</li>
-                <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Spring Framework Developer ($90k-$150k)</li>
-              </ul>
-            </div>
-            <div>
-              <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn Java in 2025:</h4>
-              <ul class="text-gray-700 dark:text-gray-300 space-y-2">
-                <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Massive enterprise market</li>
-                <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Android development platform</li>
-                <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Strong job security and stability</li>
-                <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Excellent learning foundation</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="bg-red-100 dark:bg-red-900/30 p-4 rounded-lg mb-6">
-            <h4 class="font-semibold text-red-800 dark:text-red-300 mb-2">Popular Frameworks & Tools:</h4>
-            <p class="text-red-700 dark:text-red-300">Spring Boot, Spring Framework, Hibernate, Maven, Gradle, Android SDK, Apache Kafka</p>
-          </div>
-
-          <div class="flex flex-wrap gap-3">
-            <a href="https://docs.oracle.com/javase/tutorial/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors duration-200 text-sm font-medium">
-              Java Tutorial →
-            </a>
-            <a href="https://docs.oracle.com/en/java/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors duration-200 text-sm font-medium">
-              Java Documentation →
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-16 mb-8">📊 2025 Programming Language Market Insights</h2>
-      
-      <div class="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl mb-12">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="text-center">
-            <div class="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">78%</div>
-            <p class="text-gray-700 dark:text-gray-300">of AI/ML jobs require Python</p>
-          </div>
-          <div class="text-center">
-            <div class="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">65%</div>
-            <p class="text-gray-700 dark:text-gray-300">web development jobs use JavaScript</p>
-          </div>
-          <div class="text-center">
-            <div class="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">42%</div>
-            <p class="text-gray-700 dark:text-gray-300">salary increase for Rust developers</p>
-          </div>
-        </div>
-      </div>
-
-      <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-16 mb-8">🎯 How to Choose Your First Language</h2>
-      
-      <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-400 p-8 rounded-r-2xl mb-12">
-        <h3 class="text-xl font-semibold text-blue-800 dark:text-blue-300 mb-4">
-          🎨 For Complete Beginners:
-        </h3>
-        <p class="text-blue-700 dark:text-blue-300 mb-4">
-          Start with <strong>Python</strong> - its simple syntax and versatile applications make it perfect for learning programming fundamentals while building real projects.
-        </p>
-        
-        <h3 class="text-xl font-semibold text-blue-800 dark:text-blue-300 mb-4 mt-6">
-          💼 For Career Switchers:
-        </h3>
-        <p class="text-blue-700 dark:text-blue-300 mb-4">
-          Choose <strong>JavaScript/TypeScript</strong> - the highest job demand and quickest path to employment in web development.
-        </p>
-
-        <h3 class="text-xl font-semibold text-blue-800 dark:text-blue-300 mb-4 mt-6">
-          🚀 For High-Performance Applications:
-        </h3>
-        <p class="text-blue-700 dark:text-blue-300">
-          Learn <strong>Rust</strong> or <strong>Go</strong> - both offer excellent performance with modern development experience and growing job markets.
-        </p>
-      </div>
-
-      <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-16 mb-8">Start Your Programming Journey Today</h2>
-      
-      <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 text-lg">
-        The programming world in 2025 offers incredible opportunities for those willing to learn and adapt. Each of these languages represents a different path to a successful tech career, with strong job markets and competitive salaries.
-      </p>
-
-      <div class="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-8 rounded-2xl border border-purple-200 dark:border-purple-700 mt-12">
-        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Ready to Code Your Future?</h3>
-        <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
-          Don't wait for the "perfect" moment to start learning. Pick the language that aligns with your career goals, click on the official resources above, and begin your coding journey today. The tech industry is hungry for skilled developers, and 2025 could be the year you join their ranks!
-        </p>
-      </div>
-    `,
+      `,
     author: "ModernBlog Team",
     authorBio: "Our technical team analyzes programming language trends, job market data, and industry insights to help developers make informed career decisions and choose the right technologies to learn.",
     date: "March 18, 2024",
     readTime: "15 min read",
     category: "Programming",
-    categoryColor: "bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300",
+    categoryColor: "bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple- 300",
     image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&h=1380",
     tags: ["programming languages", "career development", "python", "javascript", "rust", "golang", "java", "2025 trends"],
     publishedTime: "2024-03-18T08:00:00.000Z",
     modifiedTime: "2024-03-18T08:00:00.000Z"
-  }
-];
+  },
+  {
+    id: "top-dev-sites-2025",
+    title: "Top 10 Websites Every Developer Should Bookmark",
+    excerpt: "Discover the must-have websites that every developer should bookmark in 2025 — from learning resources and debugging tools to design inspiration and coding communities.",
+    content: `
+            <p class="text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
+              The programming landscape is constantly evolving, and 2025 promises to be a pivotal year for software development. Whether you're starting your coding journey or looking to add new skills to your toolkit, choosing the right programming language can dramatically impact your career trajectory and earning potential.
+            </p>
 
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-12">
+              Based on industry trends, job market analysis, and technological advancement, we've identified the five programming languages that offer the best combination of career opportunities, salary potential, and future growth. Each language comes with learning resources and official documentation links to get you started.
+            </p>
+
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-16 mb-8">🏆 The Top 5 Programming Languages for 2025</h2>
+
+            <div class="space-y-12">
+              <div class="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 p-8 rounded-2xl border border-blue-200 dark:border-blue-700 hover:shadow-lg transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                  <div class="p-4 bg-blue-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">1</div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Python</h3>
+                    <p class="text-blue-700 dark:text-blue-300 font-medium text-lg">The Universal Language</p>
+                  </div>
+                </div>
+
+                <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
+                  Python continues to dominate as the most versatile and beginner-friendly programming language. Its clean syntax and extensive ecosystem make it the go-to choice for AI, machine learning, data science, web development, and automation.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Data Scientist ($120k-$180k)</li>
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>AI/ML Engineer ($130k-$200k)</li>
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Backend Developer ($90k-$150k)</li>
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>DevOps Engineer ($110k-$170k)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn Python in 2025:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Leading AI/ML frameworks (TensorFlow, PyTorch)</li>
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Fastest-growing job market</li>
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Excellent for beginners</li>
+                      <li class="flex items-start"><span class="text-blue-500 mr-2">•</span>Strong community support</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="bg-blue-100 dark:bg-blue-900/30 p-4 rounded-lg mb-6">
+                  <h4 class="font-semibold text-blue-800 dark:text-blue-300 mb-2">Popular Frameworks & Libraries:</h4>
+                  <p class="text-blue-700 dark:text-blue-300">Django, Flask, FastAPI, TensorFlow, PyTorch, Pandas, NumPy, Scikit-learn</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <a href="https://www.python.org/about/gettingstarted/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-200 text-sm font-medium">
+                    Official Python Tutorial →
+                  </a>
+                  <a href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 text-sm font-medium">
+                    Python Documentation →
+                  </a>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 dark:from-yellow-900/20 dark:to-yellow-800/20 p-8 rounded-2xl border border-yellow-200 dark:border-yellow-700 hover:shadow-lg transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                  <div class="p-4 bg-yellow-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">2</div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">JavaScript/TypeScript</h3>
+                    <p class="text-yellow-700 dark:text-yellow-300 font-medium text-lg">The Web Development Powerhouse</p>
+                  </div>
+                </div>
+
+                <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
+                  JavaScript remains the backbone of web development, while TypeScript adds enterprise-level type safety. Together, they power everything from frontend interfaces to backend services, mobile apps, and even desktop applications.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Full-Stack Developer ($95k-$160k)</li>
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Frontend Developer ($80k-$140k)</li>
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Node.js Developer ($90k-$150k)</li>
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>React/Vue Specialist ($85k-$145k)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn JS/TS in 2025:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Universal language (web, mobile, desktop)</li>
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Huge job market demand</li>
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>TypeScript adoption growing rapidly</li>
+                      <li class="flex items-start"><span class="text-yellow-500 mr-2">•</span>Rich ecosystem and frameworks</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="bg-yellow-100 dark:bg-yellow-900/30 p-4 rounded-lg mb-6">
+                  <h4 class="font-semibold text-yellow-800 dark:text-yellow-300 mb-2">Popular Frameworks & Libraries:</h4>
+                  <p class="text-yellow-700 dark:text-yellow-300">React, Vue.js, Angular, Node.js, Next.js, Express.js, Svelte, React Native</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition-colors duration-200 text-sm font-medium">
+                    JavaScript Guide →
+                  </a>
+                  <a href="https://www.typescriptlang.org/docs/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors duration-200 text-sm font-medium">
+                    TypeScript Documentation →
+                  </a>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900/20 dark:to-green-800/20 p-8 rounded-2xl border border-green-200 dark:border-green-700 hover:shadow-lg transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                  <div class="p-4 bg-green-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">3</div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Rust</h3>
+                    <p class="text-green-700 dark:text-green-300 font-medium text-lg">The Future of System Programming</p>
+                  </div>
+                </div>
+
+                <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
+                  Rust is rapidly becoming the preferred choice for system-level programming, offering memory safety without garbage collection. Major tech companies are adopting Rust for performance-critical applications, making it one of the most promising languages for 2025.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Systems Engineer ($120k-$190k)</li>
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Blockchain Developer ($110k-$180k)</li>
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Performance Engineer ($125k-$200k)</li>
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>WebAssembly Developer ($115k-$175k)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn Rust in 2025:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Fastest-growing systems language</li>
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Memory safety without performance cost</li>
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>High developer satisfaction</li>
+                      <li class="flex items-start"><span class="text-green-500 mr-2">•</span>Growing industry adoption</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="bg-green-100 dark:bg-green-900/30 p-4 rounded-lg mb-6">
+                  <h4 class="font-semibold text-green-800 dark:text-green-300 mb-2">Popular Use Cases & Tools:</h4>
+                  <p class="text-green-700 dark:text-green-300">Operating systems, web browsers, game engines, blockchain, CLI tools, WebAssembly, embedded systems</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <a href="https://doc.rust-lang.org/book/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors duration-200 text-sm font-medium">
+                    The Rust Book →
+                  </a>
+                  <a href="https://www.rust-lang.org/learn" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-200 text-sm font-medium">
+                    Learn Rust →
+                  </a>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 p-8 rounded-2xl border border-purple-200 dark:border-purple-700 hover:shadow-lg transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                  <div class="p-4 bg-purple-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">4</div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Go (Golang)</h3>
+                    <p class="text-purple-700 dark:text-purple-300 font-medium text-lg">The Cloud-Native Champion</p>
+                  </div>
+                </div>
+
+                <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
+                  Go has become the language of choice for cloud infrastructure, microservices, and distributed systems. Created by Google, it combines the performance of compiled languages with the simplicity of scripting languages, making it perfect for modern cloud-native applications.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Cloud Engineer ($105k-$170k)</li>
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>DevOps Engineer ($100k-$165k)</li>
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Backend Developer ($95k-$155k)</li>
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Microservices Architect ($130k-$200k)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn Go in 2025:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Perfect for cloud and containers</li>
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Excellent concurrency support</li>
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Fast compilation and deployment</li>
+                      <li class="flex items-start"><span class="text-purple-500 mr-2">•</span>Simple and readable syntax</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="bg-purple-100 dark:bg-purple-900/30 p-4 rounded-lg mb-6">
+                  <h4 class="font-semibold text-purple-800 dark:text-purple-300 mb-2">Popular Tools & Frameworks:</h4>
+                  <p class="text-purple-700 dark:text-purple-300">Docker, Kubernetes, Gin, Echo, Fiber, gRPC, Cobra CLI, Prometheus</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <a href="https://go.dev/tour/welcome/1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors duration-200 text-sm font-medium">
+                    Go Tour →
+                  </a>
+                  <a href="https://go.dev/doc/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors duration-200 text-sm font-medium">
+                    Go Documentation →
+                  </a>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-br from-red-50 to-red-100 dark:from-red-900/20 dark:to-red-800/20 p-8 rounded-2xl border border-red-200 dark:border-red-700 hover:shadow-lg transition-shadow duration-300">
+                <div class="flex items-center mb-6">
+                  <div class="p-4 bg-red-500 rounded-xl text-white mr-6 shadow-lg text-3xl font-bold">5</div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Java</h3>
+                    <p class="text-red-700 dark:text-red-300 font-medium text-lg">The Enterprise Backbone</p>
+                  </div>
+                </div>
+
+                <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-lg">
+                  Java continues to be a cornerstone of enterprise development, Android applications, and large-scale systems. With continuous evolution and modern features, Java remains one of the most stable and well-paying career choices in programming.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">💼 Career Opportunities:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Enterprise Developer ($85k-$145k)</li>
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Android Developer ($80k-$140k)</li>
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Java Architect ($120k-$185k)</li>
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Spring Framework Developer ($90k-$150k)</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold text-gray-900 dark:text-white mb-3">🚀 Why Learn Java in 2025:</h4>
+                    <ul class="text-gray-700 dark:text-gray-300 space-y-2">
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Massive enterprise market</li>
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Android development platform</li>
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Strong job security and stability</li>
+                      <li class="flex items-start"><span class="text-red-500 mr-2">•</span>Excellent learning foundation</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="bg-red-100 dark:bg-red-900/30 p-4 rounded-lg mb-6">
+                  <h4 class="font-semibold text-red-800 dark:text-red-300 mb-2">Popular Frameworks & Tools:</h4>
+                  <p class="text-red-700 dark:text-red-300">Spring Boot, Spring Framework, Hibernate, Maven, Gradle, Android SDK, Apache Kafka</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                  <a href="https://docs.oracle.com/javase/tutorial/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors duration-200 text-sm font-medium">
+                    Java Tutorial →
+                  </a>
+                  <a href="https://docs.oracle.com/en/java/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors duration-200 text-sm font-medium">
+                    Java Documentation →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-16 mb-8">📊 2025 Programming Language Market Insights</h2>
+
+            <div class="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl mb-12">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                  <div class="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">78%</div>
+                  <p class="text-gray-700 dark:text-gray-300">of AI/ML jobs require Python</p>
+                </div>
+                <div class="text-center">
+                  <div class="text-3xl font-bold text-green-600 dark:text-green-400 mb-2">65%</div>
+                  <p class="text-gray-700 dark:text-gray-300">web development jobs use JavaScript</p>
+                </div>
+                <div class="text-center">
+                  <div class="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">42%</div>
+                  <p class="text-gray-700 dark:text-gray-300">salary increase for Rust developers</p>
+                </div>
+              </div>
+            </div>
+
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-16 mb-8">🎯 How to Choose Your First Language</h2>
+
+            <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-400 p-8 rounded-r-2xl mb-12">
+              <h3 class="text-xl font-semibold text-blue-800 dark:text-blue-300 mb-4">
+                🎨 For Complete Beginners:
+              </h3>
+              <p class="text-blue-700 dark:text-blue-300 mb-4">
+                Start with <strong>Python</strong> - its simple syntax and versatile applications make it perfect for learning programming fundamentals while building real projects.
+              </p>
+
+              <h3 class="text-xl font-semibold text-blue-800 dark:text-blue-300 mb-4 mt-6">
+                💼 For Career Switchers:
+              </h3>
+              <p class="text-blue-700 dark:text-blue-300 mb-4">
+                Choose <strong>JavaScript/TypeScript</strong> - the highest job demand and quickest path to employment in web development.
+              </p>
+
+              <h3 class="text-xl font-semibold text-blue-800 dark:text-blue-300 mb-4 mt-6">
+                🚀 For High-Performance Applications:
+              </h3>
+              <p class="text-blue-700 dark:text-blue-300">
+                Learn <strong>Rust</strong> or <strong>Go</strong> - both offer excellent performance with modern development experience and growing job markets.
+              </p>
+            </div>
+
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-16 mb-8">Start Your Programming Journey Today</h2>
+
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 text-lg">
+              The programming world in 2025 offers incredible opportunities for those willing to learn and adapt. Each of these languages represents a different path to a successful tech career, with strong job markets and competitive salaries.
+            </p>
+
+            <div class="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-8 rounded-2xl border border-purple-200 dark:border-purple-700 mt-12">
+              <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Ready to Code the Future?</h3>
+
+      </div>
+    `,
+    author: "ModernBlog Team",
+    authorBio: "Our technical team analyzes programming language trends, job market data, and industry insights to help developers make informed career decisions and choose the right technologies to learn.",
+    date: "March 18, 2024",
+    readTime: "5 min read",
+    category: "Web Development",
+    categoryColor: "bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300",
+    image: "https://media.istockphoto.com/id/1325763688/photo/web-design-development-design-studio-creative-process-3d-render.webp?a=1&b=1&s=612x612&w=0&k=20&c=f10fgDjFpY_aWayrXey6t_guGL4r8SGVwV_tgGBuKxY=",
+    tags: ["developer tools", "web development", "resources"],
+    publishedTime: "2024-03-18T08:00:00.000Z",
+    modifiedTime: "2024-03-18T08:00:00.000Z"
+  }
+
+];
 export function getBlogById(id: string): BlogPost | undefined {
   return blogPosts.find(blog => blog.id === id);
 }
-
 export function getAllBlogs(): BlogPost[] {
   return blogPosts;
 }
+
