@@ -1,57 +1,168 @@
-import express, { type Request, Response, NextFunction } from "express";
+// // import express, { type Request, Response, NextFunction } from "express";
+// // import { registerRoutes } from "./routes";
+// // import { setupVite, serveStatic, log } from "./vite";
+
+// // const app = express();
+// // app.use(express.json());
+// // app.use(express.urlencoded({ extended: false }));
+
+
+// // app.use((req, res, next) => {
+// //   const start = Date.now();
+// //   const path = req.path;
+// //   let capturedJsonResponse: Record<string, any> | undefined = undefined;
+
+// //   const originalResJson = res.json;
+// //   res.json = function (bodyJson, ...args) {
+// //     capturedJsonResponse = bodyJson;
+// //     return originalResJson.apply(res, [bodyJson, ...args]);
+// //   };
+
+// //   res.on("finish", () => {
+// //     const duration = Date.now() - start;
+// //     if (path.startsWith("/api")) {
+// //       let logLine = `${req.method} ${path} ${res.statusCode} in ${duration}ms`;
+// //       if (capturedJsonResponse) {
+// //         logLine += ` :: ${JSON.stringify(capturedJsonResponse)}`;
+// //       }
+
+// //       if (logLine.length > 80) {
+// //         logLine = logLine.slice(0, 79) + "…";
+// //       }
+
+// //       log(logLine);
+// //     }
+// //   });
+
+// //   next();
+// // });
+
+// // (async () => {
+// //   const server = await registerRoutes(app);
+
+// //   app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
+// //     const status = err.status || err.statusCode || 500;
+// //     const message = err.message || "Internal Server Error";
+
+// //     res.status(status).json({ message });
+// //     throw err;
+// //   });
+
+// //   // importantly only setup vite in development and after
+// //   // setting up all the other routes so the catch-all route
+// //   // doesn't interfere with the other routes
+// //   if (app.get("env") === "development") {
+// //     await setupVite(app, server);
+// //   } else {
+// //     serveStatic(app);
+// //   }
+
+// //   // ALWAYS serve the app on the port specified in the environment variable PORT
+// //   // Other ports are firewalled. Default to 5000 if not specified.
+// //   // this serves both the API and the client.
+// //   // It is the only port that is not firewalled.
+// //   const port = parseInt(process.env.PORT || '5000', 10);
+// //   server.listen({
+// //     port,
+// //     host: "0.0.0.0",
+// //     reusePort: true,
+// //   }, () => {
+// //     log(`serving on port ${port}`);
+// //   });
+// // })();
+
+// import express, { type Request, Response, NextFunction } from "express";
+// import { registerRoutes } from "./routes";
+// import { setupVite, serveStatic, log } from "./vite";
+
+// const app = express();
+
+// // Middleware
+// app.use(express.json());
+// app.use(express.urlencoded({ extended: false }));
+
+// // Custom logger middleware
+// app.use((req, res, next) => {
+//   const start = Date.now();
+//   const path = req.path;
+//   let capturedJsonResponse: Record<string, any> | undefined = undefined;
+
+//   const originalResJson = res.json;
+//   res.json = function (bodyJson, ...args) {
+//     capturedJsonResponse = bodyJson;
+//     return originalResJson.apply(res, [bodyJson, ...args]);
+//   };
+
+//   res.on("finish", () => {
+//     const duration = Date.now() - start;
+//     if (path.startsWith("/api")) {
+//       let logLine = `${req.method} ${path} ${res.statusCode} in ${duration}ms`;
+//       if (capturedJsonResponse) {
+//         logLine += ` :: ${JSON.stringify(capturedJsonResponse)}`;
+//       }
+
+//       if (logLine.length > 80) {
+//         logLine = logLine.slice(0, 79) + "…";
+//       }
+
+//       log(logLine);
+//     }
+//   });
+
+//   next();
+// });
+
+// // Async server setup
+// (async () => {
+//   // Register your routes and get the Node.js HTTP server
+//   const server = await registerRoutes(app);
+
+//   // Error handler
+//   app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
+//     const status = err.status || err.statusCode || 500;
+//     const message = err.message || "Internal Server Error";
+//     res.status(status).json({ message });
+//     console.error(err); // Log the error instead of crashing
+//   });
+
+//   // Vite only in development
+//   if (app.get("env") === "development") {
+//     await setupVite(app, server);
+//   } else {
+//     serveStatic(app); // Serve built frontend in production
+//   }
+
+//   // Start server
+//   const port = parseInt(process.env.PORT || "5000", 10);
+//   server.listen(port, "0.0.0.0", () => {
+//     log(`🚀 Server is running on http://localhost:${port}`);
+//   });
+// })();
+import express from "express";
+import cors from "cors";
 import { registerRoutes } from "./routes";
-import { log } from "./vite"; // keep only log if used
+
 
 const app = express();
-
-// Middleware
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
 
-// Logger middleware
-app.use((req, res, next) => {
-  const start = Date.now();
-  const path = req.path;
-  let capturedJsonResponse: Record<string, any> | undefined = undefined;
+// import cors from "cors";
 
-  const originalResJson = res.json;
-  res.json = function (bodyJson, ...args) {
-    capturedJsonResponse = bodyJson;
-    return originalResJson.apply(res, [bodyJson, ...args]);
-  };
+app.use(cors({
+  origin: "https://stablecodex.web.app", // only allow this origin
+  methods: ["GET", "POST", "PUT", "DELETE"], // customize if needed
+  credentials: true, // optional, only if you're using cookies or auth
+}));
 
-  res.on("finish", () => {
-    const duration = Date.now() - start;
-    if (path.startsWith("/api")) {
-      let logLine = `${req.method} ${path} ${res.statusCode} in ${duration}ms`;
-      if (capturedJsonResponse) {
-        logLine += ` :: ${JSON.stringify(capturedJsonResponse)}`;
-      }
 
-      if (logLine.length > 80) {
-        logLine = logLine.slice(0, 79) + "…";
-      }
-
-      log(logLine);
-    }
-  });
-
-  next();
-});
-
-// Register routes
-registerRoutes(app);
-
-// Error handler
-app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
-  const status = err.status || err.statusCode || 500;
-  const message = err.message || "Internal Server Error";
-  res.status(status).json({ message });
-  throw err;
-});
-
-// ✅ Start server on dynamic port (Render sets PORT)
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`🚀 Server listening on port ${PORT}`);
-});
+
+async function start() {
+  await registerRoutes(app); // Only adds routes
+  app.listen(PORT, () => {
+    console.log(`🚀 Server is running on http://localhost:${PORT}`);
+  });
+}
+
+start();
+
